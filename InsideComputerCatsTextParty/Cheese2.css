@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    height: 250vh;
+    width: 100vw;
+    background-image: url('Chees3/CHEESEBG.jpg');
+    opacity: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.header{
+    border-top: dotted rgb(120, 120, 0);
+    border-bottom: dotted rgb(120, 120, 0);
+    background-color: yellow;
+    opacity: 70%;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+.cheese2{
+    margin-left: 1%;
+    height: 80%;
+    width: 10%;
+}
+
+.h1{
+    display: flex;
+    user-select: none;
+    align-items: center;
+    height: 100%;
+    scale: 125%;
+    text-decoration: underline;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60%;
+    width: 60%;
+    margin-right: 1%;
+}
+
+.li{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    width: 15%;
+    transition: 0.5s;
+    user-select: none;
+    
+}
+
+.li:hover{
+    border-style: inset;
+    background-color: rgb(120, 120, 0);
+    opacity: 60%;
+    color: yellow;
+}
+
+.mainBody{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 85%;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 12%;
+    width: 75%;
+    height: 85%;
+}
+
+.Ingredientes{
+    user-select: none;
+    border-style: dotted;
+    border-color: rgb(120, 120, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 48%;
+    height: 100%;
+    background-color: yellow;
+    opacity: 70%;
+}
+
+.hi{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    height: 1%;
+    width: 100%;
+    z-index: 4;
+}
+.i{
+    display: flex;
+    margin-top: -5%;
+    padding: 5%;
+}
+
+.Estudios{
+    user-select: none;
+    border-style: dotted;
+    border-color: rgb(120, 120, 0);
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 48%;
+    height: 75%;
+    background-color: yellow;
+    opacity: 70%;
+}
+
+.hi2{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    height: 1%;
+    width: 100%;
+    z-index: 4;
+}
+
+.fe{
+    padding: 5%;
+    height: 25%;
+    width: 100%;
+    padding-bottom: -20%;
+}
+
+.fp{
+    height: 1%;
+    display: flex;
+    align-content: center;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+
+.footer{
+    user-select: none;
+    border-top: dotted rgb(120, 120, 0);
+    border-bottom: dotted rgb(120, 120, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    opacity: 70%;
+    align-self: flex-end;
+    width: 100%;
+    height: 2%;
+}

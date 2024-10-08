@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('Chees3/CHEESEBG.jpg');
+    opacity: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.header{
+    margin-top: 2%;
+    margin-left: 30%;
+    background-color: yellow;
+    opacity: 70%;
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 20%;
+    user-select: none;
+
+}
+h1{
+    text-decoration: underline;
+    margin-top: 8%;
+    margin-left: 28%;
+    height: 35%;
+    scale: 160%;
+}
+h2{
+    margin-left: 3%;
+    height: 50%;
+}
+.cheese1{
+    margin-top: -3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.check{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 25%;
+    height: 40%;
+    user-select: none;
+    transition: 1s;
+}
+
+.m1{
+    display: flex;
+    height: 10%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    text-shadow: 0px 0px 23px yellow;
+}
+
+.m2{
+    justify-content: center;
+    align-items: center;
+    display: none;
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s; 
+}
+
+.m3{
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    display: none;
+    height: 50%;
+    width: 50%;
+    transition: 0.5s;
+}
+
+.m4{
+    justify-content: center;
+    align-items: center;
+    display: none;
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.m5{
+    justify-content: center;
+    align-items: center;
+    display: none;
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.m1:hover{
+    color: white;
+    text-shadow: #FC0 50px 0 50px;
+}
+
+.m2:hover{
+    color: white;
+    border: 10px white;
+    transform: scale(110%);
+}
+
+.m3:hover{
+    color: white;
+    border: 10px white;
+    transform: scale(110%);
+}
+
+.m4:hover{
+    color: white;
+    border: 10px white;
+    transform: scale(110%);
+}
+
+.m5:hover{
+    color: white;
+    border: 10px white;
+    transform: scale(110%);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    opacity: 70%;
+    align-self: flex-end;
+    width: 100%;
+    height: 5%;
+    user-select: none;
+}

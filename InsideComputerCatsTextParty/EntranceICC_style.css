@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    background-color: beige;
+}
+
+.start{
+    justify-content: center;
+    user-select: none;
+    align-items: center;
+    display: flex;
+    opacity: 100%;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    z-index: 4;
+    color: white;
+}
+
+.caraGato{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    background-image: url('Sound+Img/BG1.png');
+    width: 75%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ojos{
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+    margin-top: 10%;
+    height: 37%;
+    width: 100%;
+    
+}
+
+.ospace{
+    display: inline-block;
+    width: 5%;
+}
+
+.ojo{
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-right: 4%;
+
+}
+
+.pupila{
+    height: 40%;
+    width: 40%;
+    background-color:rgb(131,131,131);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.boca{
+    display: flex;
+    opacity: 50%;
+    height: 40%;
+    width: 77%;
+    margin-left: 13%;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    text-decoration: none;  
+}
+
+.rp{
+    user-select: none;
+    position: absolute;
+    bottom: 6%;
+    right: 10%;
+}
+
+.rm{
+    user-select: none;
+    display: none;
+    border-style: ridge;
+    position: absolute;
+    align-items: center;
+    top: 72%;
+    right: 3%;
+    height: 10%;
+    width: 20%;
+    background: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.emensaje1{
+    display: flex;
+    margin-left: 3%;
+}
+.emensaje2{
+    display: none;
+    margin-left: 3%;
+}
+.emensaje3{
+    display: none;
+    margin-left: 3%;
+}
+.emensaje4{
+    display: none;
+    margin-left: 3%;
+}
+
+.rp:hover{
+    color: rgb(131,131,131);
+}
